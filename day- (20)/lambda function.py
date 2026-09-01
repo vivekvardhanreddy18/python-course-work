@@ -75,4 +75,3 @@
 # print(lowtohigh)
 
 
-# add line sync test
