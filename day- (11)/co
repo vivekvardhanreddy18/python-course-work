@@ -1,0 +1,63 @@
+class Student:
+    """Class to determine student grade based on marks."""
+    
+    def __init__(self, name, marks):
+        """
+        Initialize student with name and marks.
+        
+        Args:
+            name (str): Student's name
+            marks (int/float): Marks obtained (0-100)
+        """
+        self.name = name
+        self.marks = marks
+    
+    def get_grade(self):
+        """
+        Determine grade based on marks.
+        
+        Grading Scale:
+        90-100: A
+        80-89: B
+        70-79: C
+        60-69: D
+        Below 60: F
+        
+        Returns:
+            str: Grade letter
+        """
+        if self.marks >= 90:
+            return 'A'
+        elif self.marks >= 80:
+            return 'B'
+        elif self.marks >= 70:
+            return 'C'
+        elif self.marks >= 60:
+            return 'D'
+        else:
+            return 'F'
+    
+    def display_result(self):
+        """Display student name, marks, and grade."""
+        grade = self.get_grade()
+        print(f"Name: {self.name}")
+        print(f"Marks: {self.marks}")
+        print(f"Grade: {grade}")
+
+
+# Example usage
+if __name__ == "__main__":
+    # Create student objects
+    student1 = Student("Alice", 95)
+    student2 = Student("Bob", 85)
+    student3 = Student("Charlie", 72)
+    student4 = Student("Diana", 58)
+    
+    # Display results
+    students = [student1, student2, student3, student4]
+    for student in students:
+        student.display_result()
+        print()
+name = input("Enter student name: ")
+
+if = name ==("Enter the name: ")

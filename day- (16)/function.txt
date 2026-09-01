@@ -1,0 +1,7 @@
+Function:
+Function is reusable block of code used for a specific task
+return is going to terminate the function and return the value to the caller
+
+advantages of functions are:
+1. We can divide complex large code into smaller blocks of code 
+2. 
