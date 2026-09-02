@@ -12,5 +12,5 @@
 # l = [[j for j in range(1,4)] for i in range(3)]
 # print(l)
 
-s = {i: i**2 for i in range(1, 6)}
-print(s)
+# s = {i: i**2 for i in range(1, 6)}
+# print(s)
