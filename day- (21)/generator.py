@@ -10,14 +10,25 @@
 # print(next(res))
 # print(next(res))
 
-def countdown():
-    yield 5
-    yield 4
-    yield 3
-    yield 2
-    yield 1
+# def countdown():
+#     yield 5
+#     yield 4
+#     yield 3
+#     yield 2
+#     yield 1
 
-res = countdown()
+# res = countdown()
+# for i in res:
+#     print(i)
+    
+
+def factors(num):
+    for i in range(1, num + 1):
+        if num % i == 0:
+            yield i
+
+res = factors(12)
 for i in res:
     print(i)
-    
+
+print(next(res))  # This will raise StopIteration since the generator is exhausted
