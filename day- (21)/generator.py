@@ -34,8 +34,8 @@
 # print(next(res))  # This will raise StopIteration since the generator is exhausted
 
 
-def primenobetween(num1, num2):
-    for i in range(num1, num2 + 1):
+def primenobetween(num2):
+    for i in range(0, num2 + 1):
         if i > 1:
             for j in range(2, int(i ** 0.5) + 1):
                 if i % j == 0:
