@@ -22,13 +22,27 @@
 #     print(i)
     
 
-def factors(num):
-    for i in range(1, num + 1):
-        if num % i == 0:
-            yield i
+# def factors(num):
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             yield i
 
-res = factors(12)
+# res = factors(12)
+# for i in res:
+#     print(i)
+
+# print(next(res))  # This will raise StopIteration since the generator is exhausted
+
+
+def primenobetween(num1, num2):
+    for i in range(num1, num2 + 1):
+        if i > 1:
+            for j in range(2, int(i ** 0.5) + 1):
+                if i % j == 0:
+                    break
+            else:
+                yield i
+
+res = primenobetween(0, 50)
 for i in res:
-    print(i)
-
-print(next(res))  # This will raise StopIteration since the generator is exhausted
+    print(i)    
