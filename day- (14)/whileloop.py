@@ -1,9 +1,9 @@
-#while loop
+# while loop
 # i= 0
 # while i<51:
 #     print(i)
 #     i+=5
-#while loop is used to execute a block of code repeatedly as long as a given condition is true.
+# while loop is used to execute a block of code repeatedly as long as a given condition is true.
 # s='while loop'
 # i=0
 # while i<len(s):
