@@ -1,7 +1,7 @@
 import logic as lg
 
 
-while lg.login():
+while True:
     print(lg.menu())
     choice = input("Enter your choice: ").lower()
     if choice == 'c':
