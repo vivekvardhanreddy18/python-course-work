@@ -14,7 +14,7 @@ while True:
     elif choice == 'v':
         lg.view_history()
     elif choice == 'e':
-        print("Thank you for using our ATM. Goodbye!")
+        print("Thank you for using our ATM. visit again!")
         break
     else:
         print("Invalid choice. Please try again.")
