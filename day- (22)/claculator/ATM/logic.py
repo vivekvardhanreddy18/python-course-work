@@ -30,14 +30,14 @@ def deposit():
     amount = float(input("Enter the amount to deposit: "))
     data[acc_num]['balance'] += amount
     data[acc_num]['history'].append((amount , "is deposited"))
-    print("Amount deposited successfully!\nYour new balance is: ", data[acc_num]['balance'])
+    print("Amount deposited successfully!\nYour new balance is: ", data[acc_num]['balance'],"\n\n")
 
 def withdraw():
     amount = float(input("Enter the amount to withdraw: "))
     if data[acc_num]['balance'] >= amount:
         data[acc_num]['balance'] -= amount
         data[acc_num]['history'].append((amount , "is withdrawn"))
-        print("Amount withdrawn successfully!\nYour new balance is: ", data[acc_num]['balance'])
+        print("Amount withdrawn successfully!\nYour new balance is: ", data[acc_num]['balance'],"\n\n")
     else:
         print("Insufficient balance.")
 
