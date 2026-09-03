@@ -20,3 +20,11 @@
 # l.modulus(5, 4)
 
 
+from logic import *
+
+add(5, 4)
+subtract(5, 4)
+multiply(5, 4)
+divide(5, 4)
+power(5, 4)
+modulus(5, 4)
