@@ -45,4 +45,4 @@ def view_history():
     print("============Transaction History============")
     for transaction in data[acc_num]['history']:
         print(f"{transaction[0]}: ${transaction[1]}")
-    print("============E")
+    print("============End of history============")
