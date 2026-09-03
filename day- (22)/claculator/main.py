@@ -10,11 +10,13 @@
 
 #  if file name is larger then we can use alias name like follows
 
-import logic as l
+# import logic as l
 
-l.add(5, 4)
-l.subtract(5, 4)
-l.multiply(5, 4)
-l.divide(5, 4)
-l.power(5, 4)
-l.modulus(5, 4)
+# l.add(5, 4)
+# l.subtract(5, 4)
+# l.multiply(5, 4)
+# l.divide(5, 4)
+# l.power(5, 4)
+# l.modulus(5, 4)
+
+
