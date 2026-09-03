@@ -3,7 +3,7 @@ import logic as lg
 if lg.login():
     lg.menu()
 
-while True:
+while lg.login():
     choice = input("Enter your choice: ").lower()
     if choice == 'c':
         lg.check_balance()
