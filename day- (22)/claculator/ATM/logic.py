@@ -42,6 +42,7 @@ def withdraw():
         print("Insufficient balance.")
 
 def view_history():
-    print("Transaction History:")
+    print("============Transaction History============")
     for transaction in data[acc_num]['history']:
         print(f"{transaction[0]}: ${transaction[1]}")
+    print("============E")
