@@ -1,5 +1,5 @@
 import logic as lg
-
+lg.login()
 
 while True:
     print(lg.menu())
