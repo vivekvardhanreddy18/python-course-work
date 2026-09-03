@@ -29,14 +29,14 @@ def check_balance():
 def deposit():
     amount = float(input("Enter the amount to deposit: "))
     data[acc_num]['balance'] += amount
-    data[acc_num]['history'].append(('Deposit', amount))
+    data[acc_num]['history'].append((amount , "is deposited"))
     print("Amount deposited successfully!\nYour new balance is: ", data[acc_num]['balance'])
 
 def withdraw():
     amount = float(input("Enter the amount to withdraw: "))
     if data[acc_num]['balance'] >= amount:
         data[acc_num]['balance'] -= amount
-        data[acc_num]['history'].append(('Withdrawal', amount))
+        data[acc_num]['history'].append((amount , "is withdrawn"))
         print("Amount withdrawn successfully!\nYour new balance is: ", data[acc_num]['balance'])
     else:
         print("Insufficient balance.")
