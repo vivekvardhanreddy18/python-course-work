@@ -14,7 +14,7 @@ def login():
         return True
     else:
         print("Invalid credentials.")
-        
+        return False
 def menu():
     print("\nMenu:")
     print("[C]heck Balance")
@@ -42,7 +42,10 @@ def withdraw():
         print("Insufficient balance.")
 
 def view_history():
-    print("============Transaction History============")
-    for transaction in data[acc_num]['history']:
-        print(f"{transaction[0]}: ${transaction[1]}")
-    print("============End of history============")
+    if data[acc_num]['history']:
+        print("============Transaction History============")
+        for i in data[acc_num]['history']:
+            print(i)
+        print("============End of history============")
+    else:
+        print("No transaction history available.")
