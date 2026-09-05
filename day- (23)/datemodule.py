@@ -36,10 +36,20 @@ from datetime import date,time,datetime,timedelta
 
 
 
-dt = datetime.now()
-t= date.today()
+# dt = datetime.now()
+# t= date.today()
 
-t7 = t + timedelta(days=7)
+# t7 = t + timedelta(days=7)
 
-min15 = dt + timedelta(minutes=15)
-print(t7,"\n",min15)
+# min15 = dt + timedelta(minutes=15)
+# print(t7,"\n",min15)
+
+from itertools import permutations,combinations
+
+s='abc'
+
+res1 = list(permutations(s,2))
+res2 = list(combinations(s,2))
+
+print([''.join(p) for p in res1])
+print([''.join(c) for c in res2])
