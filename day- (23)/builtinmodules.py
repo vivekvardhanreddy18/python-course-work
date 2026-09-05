@@ -1,5 +1,5 @@
 import random
 name=input()
 dob = int(input())
-pw = random.random(name,dob,"@#$&*")
+pw = random.choice([name, str(dob)]) + random.choice(["@#$&*", "!@#$%", "abc123"])
 print(pw)
