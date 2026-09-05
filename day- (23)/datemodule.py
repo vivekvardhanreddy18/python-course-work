@@ -13,9 +13,22 @@ from datetime import date,time,datetime,timedelta
 # print(date(year,month,day))
 
 
-tm = time(12,30,45)
+# tm = time(12,30,45)
 
-print(tm)
-print(tm.hour)
-print(tm.minute)
-print(tm.second)
+# print(tm)
+# print(tm.hour)
+# print(tm.minute)
+# print(tm.second)
+
+
+dt = datetime.now()
+print(dt)
+print(dt.strftime('%d-%m-%y'))
+print(dt.strftime('%d-%m-%Y'))
+print(dt.strftime('%d-%m-%Y %H:%M:%S'))
+print(dt.strftime('%d-%m-%Y %H:%M:%S %p'))
+print(dt.strftime('%d-%m-%Y %I:%M:%S %p'))
+print(dt.strftime('%d %b-%Y %I:%M:%S %p'))
+print(dt.strftime('%d %B-%Y %I:%M:%S %p'))
+print(dt.strftime('%a %d %B-%Y %I:%M:%S %p'))
+print(dt.strftime('%A %d %B-%Y %I:%M:%S %p'))
