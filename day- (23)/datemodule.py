@@ -13,4 +13,9 @@ from datetime import date,time,datetime,timedelta
 # print(date(year,month,day))
 
 
-tm = time()
+tm = time(12,30,45)
+
+print(tm)
+print(tm.hour)
+print(tm.minute)
+print(tm.second)
