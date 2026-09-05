@@ -1,7 +1,7 @@
 import random
 import string
-name=input()
+name=input().title()
 dob=int(input())
-characters = string.name + string.dob + "!@#$%^&*"
-password = "".join(random.choices(characters, k=12))
+characters = name + str(dob) +"!","@","#","$","%","^","&","*"
+password = "".join(random.choices(characters))
 print("Generated password:", password)
