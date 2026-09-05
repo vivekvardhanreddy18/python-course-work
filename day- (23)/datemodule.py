@@ -21,14 +21,25 @@ from datetime import date,time,datetime,timedelta
 # print(tm.second)
 
 
+# dt = datetime.now()
+# print(dt)
+# print(dt.strftime('%d-%m-%y'))
+# print(dt.strftime('%d-%m-%Y'))
+# print(dt.strftime('%d-%m-%Y %H:%M:%S'))
+# print(dt.strftime('%d-%m-%Y %H:%M:%S %p'))
+# print(dt.strftime('%d-%m-%Y %I:%M:%S %p'))
+# print(dt.strftime('%d %b-%Y %I:%M:%S %p'))
+# print(dt.strftime('%d %B-%Y %I:%M:%S %p'))
+# print(dt.strftime('%a %d %B-%Y %I:%M:%S %p'))
+# print(dt.strftime('%A %d %B-%Y %I:%M:%S %p'))
+    
+
+
+
 dt = datetime.now()
-print(dt)
-print(dt.strftime('%d-%m-%y'))
-print(dt.strftime('%d-%m-%Y'))
-print(dt.strftime('%d-%m-%Y %H:%M:%S'))
-print(dt.strftime('%d-%m-%Y %H:%M:%S %p'))
-print(dt.strftime('%d-%m-%Y %I:%M:%S %p'))
-print(dt.strftime('%d %b-%Y %I:%M:%S %p'))
-print(dt.strftime('%d %B-%Y %I:%M:%S %p'))
-print(dt.strftime('%a %d %B-%Y %I:%M:%S %p'))
-print(dt.strftime('%A %d %B-%Y %I:%M:%S %p'))
+t= date.today()
+
+t7 = t + timedelta(days=7)
+
+min15 = dt + timedelta(minutes=15)
+print(t7,"\n",min15)
