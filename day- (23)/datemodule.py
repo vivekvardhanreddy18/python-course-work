@@ -44,12 +44,12 @@ from datetime import date,time,datetime,timedelta
 # min15 = dt + timedelta(minutes=15)
 # print(t7,"\n",min15)
 
-from itertools import permutations,combinations
+# from itertools import permutations,combinations
 
-s='abc'
+# s='abc'
 
-res1 = list(permutations(s,2))
-res2 = list(combinations(s,2))
+# res1 = list(permutations(s,2))
+# res2 = list(combinations(s,2))
 
-print([''.join(p) for p in res1])
-print([''.join(c) for c in res2])
+# print([''.join(p) for p in res1])
+# print([''.join(c) for c in res2])
