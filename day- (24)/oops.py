@@ -23,6 +23,5 @@ vinith = flipkart()
 vivek.info("vivek", 1234567890, "123 Main St")
 vinith.info("vinith", 9987654321, "456 Oak Ave")
 vivek.offers()
-
 vinith.offers()
 
