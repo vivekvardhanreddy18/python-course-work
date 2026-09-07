@@ -5,3 +5,8 @@ when the  output is dependent on the user then we use oops here
 
 class is blue print that consists of attributes(variables or users) and methods(functions)
  
+there are four pillars of opps:
+polymorphism
+encapsulation
+inheritance
+abstraction
