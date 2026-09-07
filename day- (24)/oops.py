@@ -1,5 +1,5 @@
 class flipkart:
-    pass
+    discount
 
 vivek = flipkart()
 vinith = flipkart()
