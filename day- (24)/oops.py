@@ -1,11 +1,21 @@
 class flipkart:
-    discount = 0.1  # 10% discount
+    discount = 30  # 10% discount
+
+    @classmethod
+    def updateddiscount(cls):
+        cls.discount = 40
+        print("Updated discount:", cls.discount)
 
     def info(self,name, phno,address):
         self.name = name
         self.phno = phno
         self.address = address
         print("Welcome to Flipkart!",self.name)
+
+
+    @staticmethod
+    def offers():
+        print("Current offers: Buy 1 Get 1 Free, Flat", flipkart.discount, "% off on Electronics")
 
 
 vivek = flipkart()
