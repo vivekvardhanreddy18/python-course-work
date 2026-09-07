@@ -1,5 +1,5 @@
 class flipkart:
-    discount  
+    discount = 0.1  # 10% discount
 
 vivek = flipkart()
 vinith = flipkart()
