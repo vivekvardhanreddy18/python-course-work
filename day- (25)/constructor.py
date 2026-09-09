@@ -1,7 +1,7 @@
 class Instagram:
     def __init__(self,username,pw):
         self.username = username
-        self.pw = pw
+        self.__pw = pw
         print(f"Welcome to Instagram {self.username}")
 
 
