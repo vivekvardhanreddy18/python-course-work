@@ -4,7 +4,7 @@ class Instagram:
         x.__pw = pw
         x._post = []
 
-    def getpw(x):
+    def getpw():
         return x.__pw
 
     @property
