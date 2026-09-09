@@ -29,8 +29,15 @@ veeru.groups()
 # This is multi-level inheritance where whatsappv3 inheriting from whatsappv2 and whatsappv2 inheriting from whatsappv1 class.
 
 
-class whatsappv4(whatsappv3):
+class whatsappv4(whatsappv3,whatsappv1):
     def video_call(x):
         print('You can make video call to your friends')
-        
+
+rushi = whatsappv4()
+rushi.messege() 
+rushi.status()
+rushi.groups()
+rushi.video_call()
+
+# This is multiple inheritance where whatsappv4 class is inheriting the properties of whatsappv3 and whatsappv1 class.
 
