@@ -11,7 +11,10 @@ class Instagram:
     def accesspost(x):
         return x._post
 
-    
+vivek = Instagram('vivek', '123456')
+print(vivek.username)
+print(vivek.getpw())
+print(vivek.accesspost)
 
 
 
