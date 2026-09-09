@@ -13,6 +13,8 @@ vivek = whatsappv2()
 vivek.messege() 
 vivek.status()
 
+# This is single inheritance where whatsappv2 class is inheriting the properties of whatsappv1 class.
+
 
 class whatsappv3(whatsappv2):
     def groups(x):
@@ -24,5 +26,11 @@ veeru.messege()
 veeru.status()
 veeru.groups()
 
+# This is multi-level inheritance where whatsappv3 inheriting from whatsappv2 and whatsappv2 inheriting from whatsappv1 class.
 
+
+class whatsappv4(whatsappv3):
+    def video_call(x):
+        print('You can make video call to your friends')
+        
 
