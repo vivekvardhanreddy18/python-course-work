@@ -45,3 +45,12 @@ for i in dir(vivek):
     k = getattr(vivek, i)
     if callable(k):
         k()
+
+vinith = premiumhotstar()
+
+for i in dir(vinith):
+    if i.startswith("__"):
+        continue
+    h = getattr(vinith, i)
+    if callable(h):
+        h()
