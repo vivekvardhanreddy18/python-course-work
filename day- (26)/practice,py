@@ -9,4 +9,4 @@ def table(a):
 table(5)
 
 a = 5 * sum(range(11))
-print(a)
+print(a)       
