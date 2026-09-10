@@ -12,7 +12,7 @@ a.status()
 b= whatsappv2()
 b.status()
 
-# This method is super method , used
+# This method is super method 
 
 class whatsappv3:
     def status(x):
@@ -25,3 +25,7 @@ class whatsappv4(whatsappv1,whatsappv3):
         whatsappv1.status(x)
         whatsappv3.status(x)
         print("You can create groups")
+
+
+c = whatsappv4()
+c.status()
