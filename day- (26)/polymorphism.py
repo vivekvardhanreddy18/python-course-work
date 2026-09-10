@@ -39,10 +39,9 @@ class premiumhotstar(hotstar):
 
 
 vivek = hotstar()
-v=dir(hotstar)
-for i in v:
+for i in dir(vivek):
     if i.startswith("__"):
         continue
-    k = getattr(hotstar, i)
-if callable(k):
-    k()
+    k = getattr(vivek, i)
+    if callable(k):
+        k()
