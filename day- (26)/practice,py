@@ -1,9 +1,9 @@
 def table(a):
     total = 0
     for i in range(11):
-        multiple = i * a
-        print(f"{a} x {i} = {multiple}")
-        total += multiple
+        b = i * a
+        print(f"{a} x {i} = {b}")
+        total += b
     print(f"Sum of all multiples = {total}")
 
 table(5)
