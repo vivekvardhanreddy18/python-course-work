@@ -7,3 +7,4 @@ def table(a):
     print(f"Sum of all multiples = {total}")
 
 table(5)
+
