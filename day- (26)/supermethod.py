@@ -7,7 +7,7 @@ class whatsappv2(whatsappv1):
         super().status()
         print("You can add music and react")
 
-a = whatsappv1
+a = whatsappv1()
 a.status()
-b= whatsappv2
+b= whatsappv2()
 b.status()
