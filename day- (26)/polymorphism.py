@@ -1,6 +1,4 @@
 class hotstar:
-    def __init__(x,name):
-        print(f'Welcome to Hotstar, {name}')
 
     def auth(x):
         print("yes you can login")
@@ -37,4 +35,14 @@ class premiumhotstar(hotstar):
 
     def devices(x):
         print("Multiple logins")
-        
+
+
+
+vivek = hotstar()
+v=dir(hotstar)
+for i in v:
+    if i.startswith("__"):
+        continue
+    k = getattr(hotstar, i)
+if callable(k):
+    k()
