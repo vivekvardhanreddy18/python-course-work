@@ -15,6 +15,19 @@ class redbus:
         else:
             print("Seat is already booked")
 
+class user(redbus):
+    def dispaly(x,name,email,phno):
+        x.name = name
+        x.email = email
+        x.phno = phno
+        print("f'Hello {name} , Welcome to MVR Travels")
+
+
+
+
+
+
+
 
 vivek = redbus()
 vivek.booking(4)
