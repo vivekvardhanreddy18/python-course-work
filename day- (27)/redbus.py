@@ -11,8 +11,13 @@ class redbus:
             if i==seatno and redbus.bus[i]=='Available':
                 redbus.bus[i] = 'Booked'
                 print(f"Your {seatno} is successfully booked")
+                break
         else:
             print("Seat is already booked")
-            
+
+
+vivek = redbus()
+vivek.booking(4)
+vivek.displayseat()
 
         
