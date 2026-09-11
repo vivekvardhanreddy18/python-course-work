@@ -15,3 +15,12 @@ class num:
     def __pow__(x,o):
         return x.n ** x.o
 
+a = num(5)
+b=num(10)
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a**b)
