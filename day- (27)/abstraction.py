@@ -36,7 +36,15 @@ vivek.amount()
 vivek.bank()
 vivek.pin()
 vivek.paymentprocess()
+vivek.paymentstatus()
 
+vin=AXIS()
+vin.source()
+vin.amount()
+vin.bank()
+vin.pin()
+vin.paymentprocess()
+vin.paymentstatus()
 
     
 
