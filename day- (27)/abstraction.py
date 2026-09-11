@@ -14,20 +14,20 @@ class payment(ABC):
     def paymentprocess(x):
         pass
     def paymentstatus(x):
-        print("Payment successfull")
+        print("payment successfull")
 
-class HDFC(Payment):
+class HDFC(payment):
     def paymentprocess(x):
-        print("Payment is processed through HDFC")
-class ICICI(Payment):
+        print("payment is processed through HDFC")
+class ICICI(payment):
     def paymentprocess(x):
-        print("Payment is processed through ICICI")
-class UNION(Payment): 
+        print("payment is processed through ICICI")
+class UNION(payment): 
     def paymentprocess(x):
-        print("Payment is processed through UNION")
-class AXIS(Payment):   
+        print("payment is processed through UNION")
+class AXIS(payment):   
     def paymentprocess(x):
-        print("Payment is processed through AXIS")
+        print("payment is processed through AXIS")
 
 
 vivek=HDFC()
@@ -37,6 +37,7 @@ vivek.bank()
 vivek.pin()
 vivek.paymentprocess()
 vivek.paymentstatus()
+print()
 
 vin=AXIS()
 vin.source()
