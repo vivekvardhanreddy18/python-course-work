@@ -31,6 +31,11 @@ class AXIS(Payment):
 
 
 vivek=HDFC()
+vivek.source()
+vivek.amount()
+vivek.bank()
+vivek.pin()
+vivek.paymentprocess()
 
 
     
