@@ -15,5 +15,9 @@
 #         s=n[i]
 # print(s)
 n = [10, 5, 8, 20, 15, 3]
-a=0
-b=0
+largest=0
+second=0
+for i in range(len(n)):
+    if largest < n[i]:
+        largest = n[i]
+        largest == second
