@@ -9,9 +9,8 @@
 #     s+=i
 # print(s)
 s=0
-for i in range(1,31):
-    if i%2!=0:
-        s+=1
-    else:
-        continue
+n = [4, 9, 2, 15, 7, 3]
+for i in range(len(n)):
+    if n[i] < n[i+1]:
+        s=n[i+1]
 print(s)
