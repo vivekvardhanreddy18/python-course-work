@@ -5,6 +5,6 @@
 #     s+=i
 # print(s)
 s = 0
-for i in range(0,6,2):
+for i in range(0,11,2):
     s+=i
 print(s)
