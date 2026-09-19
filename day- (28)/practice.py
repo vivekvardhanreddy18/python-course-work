@@ -14,7 +14,7 @@
 #     if s > n[i]:
 #         s=n[i]
 # print(s)
-n = [15,10, 5,15, 8, 20, 15, 3]
+n = [19,15,10, 5,15, 8, 20, 15,19, 3]
 largest=0
 second=0
 for i in range(len(n)):
