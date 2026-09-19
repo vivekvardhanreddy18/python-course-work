@@ -20,8 +20,9 @@ second=0
 for i in range(len(n)):
 
     if largest < n[i]:
+        largest = second
         largest = n[i]
-    elif second > n[i] > largest:
+    elif largest > second < n[i]:
         second = n[i]
 print(second)
 
