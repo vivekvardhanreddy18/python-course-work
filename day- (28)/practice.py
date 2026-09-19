@@ -8,8 +8,10 @@
 # for i in range(0,11,2):
 #     s+=i
 # print(s)
-a = (1,2,3,4)
-b = (1,2,3)
-a +=b
-print(a)
-print(type(a))
+s=0
+for i in range(1,21):
+    if i%2==0:
+        s+=1
+    else:
+        continue
+print(s)
