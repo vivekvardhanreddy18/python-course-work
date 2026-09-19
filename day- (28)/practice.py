@@ -18,8 +18,15 @@ n = [10, 5, 8, 20, 15, 3]
 largest=0
 second=0
 for i in range(len(n)):
+
     if largest < n[i]:
         largest = n[i]
+    elif largest > second < n[i]:
+        second = n[i]
+print(second)
+
+
+    
     
 
 
