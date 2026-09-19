@@ -21,10 +21,9 @@ for i in range(len(n)):
 
     if largest < n[i]:
         largest = n[i]
-    elif largest >n[i] and n[i] >second:
+    elif second > n[i] > largest:
         second = n[i]
 print(second)
-
 
 
     
