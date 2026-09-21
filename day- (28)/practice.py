@@ -27,8 +27,8 @@
 # print(second)
 
 a=1234
-b=0
 def rev(n):
+    b=0
     if n==0:
         return
     else:
