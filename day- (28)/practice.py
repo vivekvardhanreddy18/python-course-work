@@ -14,17 +14,17 @@
 #     if s > n[i]:
 #         s=n[i]
 # print(s)
-# n = [10,5,15]
-# largest=0
-# second=0
-# for i in range(len(n)):
+n = [10,5,15]
+largest=0
+second=0
+for i in range(len(n)):
 
-#     if largest < n[i]:
-#         largest = second
-#         largest = n[i]
-#     elif largest > second < n[i]:
-#         second = n[i]
-# print(second)
+    if largest < n[i]:
+        second = largest
+        largest = n[i]
+    elif largest > second < n[i]:
+        second = n[i]
+print(second)
 
 
 
