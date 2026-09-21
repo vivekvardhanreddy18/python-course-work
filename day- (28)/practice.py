@@ -27,18 +27,24 @@
 # print(second)
 
 a=1234
-def rev(n):
-    b=n//10
-    d=n%10
-    if n==0:
-        return
-    else:
-        c = (c*10) + d
+c=0
+# def rev(n):
+#     b=n//10
+#     d=n%10
+#     if n==0:
+#         return
+#     else:
+#         c = (c*10) + d
         
-    return c
+#     return c
 
-print(rev(a))
+# print(rev(a))
 
+while a > 0:
+    b= a%10
+    c= c*10 + b
+    a//10
+print(c)
 
 
 
