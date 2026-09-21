@@ -29,10 +29,10 @@
 a=1234
 def rev(n):
     b= (n%10) *10 + n//10
-    return rev(n//10)
+    return b
     
 
-rev(a)
+print(rev(a))
 
 
 
