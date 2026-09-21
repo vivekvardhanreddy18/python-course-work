@@ -28,9 +28,11 @@
 a = 1234
 def rev(n):
     if n == 0:
-        break
+        return
     else:
-        p
+        print(n%10,end="")
+        rev(n//10)
+rev(a)
 
 
 
