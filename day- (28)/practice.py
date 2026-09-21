@@ -34,7 +34,7 @@ def rev(n):
     if n==0:
         return
     else:
-        c = d *10() + rev(b)
+        c = (c*10) + d
         
     return c
 
