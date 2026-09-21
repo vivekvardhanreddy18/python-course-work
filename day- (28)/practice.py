@@ -26,12 +26,14 @@
 #         second = n[i]
 # print(second)
 a = 1234
+b=0
+
 def rev(n):
     if n == 0:
-        return
+        return 
     else:
-        print(n%10,end="")
-        rev(n//10)
+        print(n%10 + rev(n//10))
+        
 rev(a)
 
 
