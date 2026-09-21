@@ -27,7 +27,6 @@
 # print(second)
 
 a=1234
-c=0
 def rev(n):
     b=n//10
     d=n%10
