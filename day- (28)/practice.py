@@ -30,7 +30,7 @@ a=1234
 def rev(n):
     b= (n%10) *10 
     n//10
-    
+    return
 
 
 
