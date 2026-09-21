@@ -26,9 +26,19 @@
 #         second = n[i]
 # print(second)
 
-a= 1234
-b=0
+a=1234
+c=0
+def rev(n):
+    b=n//10
+    d=n%10
+    if n==0:
+        return
+    else:
+        c = d
+        
+    return rev(b)
 
+print(rev(a))
 
 
 
