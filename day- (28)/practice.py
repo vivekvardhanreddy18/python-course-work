@@ -27,7 +27,8 @@
 # print(second)
 a=1234
 def rev(n):
-    b= n
+    b= n//10
+    
 
 
 
