@@ -33,7 +33,7 @@ def rev(n):
         return 0
     elif (n%10)%2 ==0:
         return 1 + rev(n//10)
-
+    return rev(n//10)
         
 print(rev(a))
 
