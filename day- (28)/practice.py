@@ -25,7 +25,7 @@
 #     elif largest > second < n[i]:
 #         second = n[i]
 # print(second)
-a = 12034
+a = 120340
 b=0
 
 def rev(n):
@@ -35,6 +35,8 @@ def rev(n):
     return n//n + rev(n//10)
         
 print(rev(a))
+
+
 
 
 
