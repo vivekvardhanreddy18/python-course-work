@@ -30,9 +30,9 @@ b=0
 
 def rev(n):
     if n == 0:
-        return 
+        return 0
 
-    return n%10 + rev(n=n//10)
+    return n%10 + rev(n//10)
         
 print(rev(a))
 
