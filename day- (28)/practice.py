@@ -38,9 +38,7 @@
         
 #     return rev(n//10)
         
-# print(rev(a))
-
-
+# print(rev(a)
 
 
 
