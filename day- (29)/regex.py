@@ -83,10 +83,13 @@ import re
 # res = re.findall(pattern,text)
 # print(res)
 
-name = input("Enter the name: ")
-pattern = r'^[a-zA-Z]{2,25}( [a-zA-Z]{2,25}$)'
-res = re.fullmatch(pattern, name)
-print("Valid" if res else "Invalid")
+# name = input("Enter the name: ")
+# pattern = r'^[a-zA-Z]{2,25}( [a-zA-Z]{2,25}$)'
+# res = re.fullmatch(pattern, name)
+# print("Valid" if res else "Invalid")
+
+
+email
 
 
 
