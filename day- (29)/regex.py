@@ -36,11 +36,15 @@ import re
 
 
 # pattern = r'h.t'
-pattern = r'^[a-z]$'
+# pattern = r'^[a-z]$'
+# pattern = r'[a-z]$'
 
-text = 'hand loom hot hit hat hood wood8'
+# text = 'hand loom hot hit hat hood wood'
 
-res = re.findall(pattern,text)
-print(res)
+# res = re.findall(pattern,text)
+# print(res)
+
+
+
 
 
