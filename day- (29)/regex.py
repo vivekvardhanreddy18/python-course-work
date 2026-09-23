@@ -89,9 +89,16 @@ import re
 # print("Valid" if res else "Invalid")
 
 
-email = input("Enter the email: ")
-pattern = r'^[a-zA-Z._0-9]+@[a-zA-Z._0-9]+\.[A-Za-z]{2,}$'
-res = re.fullmatch(pattern, email)
+# email = input("Enter the email: ")
+# pattern = r'^[a-zA-Z._0-9]+@[a-zA-Z._0-9]+\.[A-Za-z]{2,}$'
+# res = re.fullmatch(pattern, email)
+# print("Valid" if res else "Invalid")
+
+
+
+phone = input("Enter the phone: ")
+pattern = r'^[6-9]\d'
+res = re.fullmatch(pattern, phone)
 print("Valid" if res else "Invalid")
 
 
