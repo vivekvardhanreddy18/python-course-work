@@ -79,11 +79,14 @@ import re
 # pattern  = r'\D'
 # pattern  = r'\s'
 # pattern  = r'\S'
+# text = 'lskdjfgbi3y4t07230lsi734kjhit'
+# res = re.findall(pattern,text)
+# print(res)
 
-
-text = 'lskdjfgbi3y4t07230lsi734kjhit'
-res = re.findall(pattern,text)
-print(res)
+name = input("Enter the name: ")
+pattern = r'^[a-zA-Z]{2,25}( [a-zA-Z]{2,25}$)'
+res = re.fullmatch(pattern, name)
+print("Valid" if res else "Invalid")
 
 
 
