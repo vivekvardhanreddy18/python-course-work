@@ -59,7 +59,13 @@ import re
 
 
 
-pattern = r'[A-Za-z0-9]'
-text = r'ehuhujhujJ9098HHYKOREHrj'
-res = re.findall(pattern , text)
+# pattern = r'[A-Za-z0-9]'
+# text = r'ehuhujhujJ9098HHYKOREHrj'
+# res = re.findall(pattern , text)
+# print(res)
+
+pattern = r'(ae)'
+text = 'lekhsbrglsfnv a,nk flkaejbaesdkljbl'
+res = re.findall(pattern,text)
 print(res)
+
