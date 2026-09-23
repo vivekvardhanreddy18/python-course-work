@@ -45,9 +45,15 @@ import re
 # print(res)
 
 
-pattern = r'ab+'
-pattern = r'ab*'
-text = "a ab aaab abb aaaaaabbbbbbb"
-res = re.findall(patteern , text)
-print(res)
+# pattern = r'ab+'
+# pattern = r'ab*'
+# text = "a ab aaab abb aaaaaabbbbbbb"
+# res = re.findall(pattern , text)
+# print(res)
 
+
+pattern = r'^(91|0)'
+# pattern = r'ab*'
+text = "910987654321"
+res = re.findall(pattern , text)
+print(res)
