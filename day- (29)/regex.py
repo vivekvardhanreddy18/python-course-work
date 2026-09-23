@@ -73,7 +73,14 @@ import re
 
 
 # pattern = r'[0-9]{2}'
-pattern  = r''
+# pattern  = r'\w'
+# pattern  = r'\W'
+# pattern  = r'\d'
+# pattern  = r'\D'
+# pattern  = r'\s'
+# pattern  = r'\S'
+
+
 text = 'lskdjfgbi3y4t07230lsi734kjhit'
 res = re.findall(pattern,text)
 print(res)
