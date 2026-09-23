@@ -5,5 +5,6 @@ text = 'codegnan2026'
 
 res = re.match(pattern, text)
 res = re.search(pattern, text)
+res = re.findall(pattern, text)
 
 print(res.group() if res else "Pattern not matched")
