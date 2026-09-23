@@ -45,6 +45,9 @@ import re
 # print(res)
 
 
-
-
+pattern = r'ab+'
+pattern = r'ab*'
+text = "a ab aaab abb aaaaaabbbbbbb"
+res = re.findall(patteern , text)
+print(res)
 
