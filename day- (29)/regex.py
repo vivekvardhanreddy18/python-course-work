@@ -91,6 +91,8 @@ import re
 
 email = input("Enter the email: ")
 pattern = r'^[a-zA-Z._0-9]+@[a-zA-Z._0-9]+\.[A-Za-z]{2,}$'
+res = re.fullmatch(pattern, email)
+print("Valid" if res else "Invalid")
 
 
 
