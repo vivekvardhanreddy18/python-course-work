@@ -64,8 +64,19 @@ import re
 # res = re.findall(pattern , text)
 # print(res)
 
-pattern = r'(ae)'
-text = 'lekhsbrglsfnv a,nk flkaejbaesdkljbl'
+
+
+# pattern = r'(ae)'
+# text = 'lekhsbrglsfnv a,nk flkaejbaesdkljbl'
+# res = re.findall(pattern,text)
+# print(res)
+
+
+pattern = r'[0-9]{2}'
+text = 'lskdjfgbi3y4t07230lsi734kjhit'
 res = re.findall(pattern,text)
 print(res)
+
+
+
 
