@@ -52,8 +52,14 @@ import re
 # print(res)
 
 
-pattern = r'^(91|0)'
-# pattern = r'ab*'
-text = "910987654321"
+# pattern = r'^(91|0)'
+# text = "91987654321"
+# res = re.findall(pattern , text)
+# print(res)
+
+
+
+pattern = r'[A-Za-z0-9]'
+text = r'ehuhujhujJ9098HHYKOREHrj'
 res = re.findall(pattern , text)
 print(res)
