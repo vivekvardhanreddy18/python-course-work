@@ -41,10 +41,8 @@
 # print(rev(a))
 
 def pal(n):
-    if n//10 < 0:
-        return
-    else:
-        print(n%10)
+    d = n%10
+    r = r *10 +d
     pal(n//10)
 n=1234
 a = pal(n)
