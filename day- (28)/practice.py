@@ -29,15 +29,15 @@
 # b=0
 
 def rev(n):
-    b=0
-    if n == 0:
-        return 
-    elif (n%10) > b:
-        b = n%10
-
-        
-    return rev(n//10)
-        
+    if n<10:
+        return n
+    d = n%10
+    large = rev(n//10)
+    if d > large:
+        return d
+    else:
+        return large
+       
 print(rev(a))
 
 
