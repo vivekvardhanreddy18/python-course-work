@@ -28,17 +28,27 @@
 # a = 12344444
 # b=0
 
-def rev(n):
-    if n<10:
-        return n
-    d = n%10
-    large = rev(n//10)
-    if d > large:
-        return d
-    else:
-        return large
+# def rev(n):
+#     if n<10:
+#         return n
+#     d = n%10
+#     large = rev(n//10)
+#     if d > large:
+#         return d
+#     else:
+#         return large
        
-print(rev(a))
+# print(rev(a))
+
+def pal(n):
+    return n%10
+    pal(n//10)
+
+a = pal(n)
+if a == n:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
 
 
 
