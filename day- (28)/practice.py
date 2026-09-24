@@ -42,6 +42,7 @@
 
 def pal(n):
     d = n%10
+    r=0
     r = r *10 +d
     pal(n//10)
 n=1234
