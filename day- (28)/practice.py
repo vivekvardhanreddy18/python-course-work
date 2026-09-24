@@ -41,9 +41,12 @@
 # print(rev(a))
 
 def pal(n):
-    return n%10
+    if n//10 < 0:
+        return
+    else:
+        print(n%10)
     pal(n//10)
-
+n=1234
 a = pal(n)
 if a == n:
     print("Palindrome")
