@@ -40,17 +40,14 @@
        
 # print(rev(a))
 
-def pal(n):
-    d = n%10
-    r=0
-    r = r *10 +d
-    pal(n//10)
-n=1234
-a = pal(n)
-if a == n:
-    print("Palindrome")
-else:
-    print("Not a palindrome")
+def occ(n):
+    if n%10 == 0:
+        return ""
+    else:
+        print(n%10,end="")
+    occ(n//10)
+
+occ(1234)
 
 
 
