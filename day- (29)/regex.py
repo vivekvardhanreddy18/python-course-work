@@ -97,7 +97,7 @@ import re
 
 
 phone = input("Enter the phone: ")
-pattern = r'^[6-9]\d'
+pattern = r'^[6-9]\d{9}'
 res = re.fullmatch(pattern, phone)
 print("Valid" if res else "Invalid")
 
