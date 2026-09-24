@@ -1,3 +1,3 @@
-import re
-
-password = input("Enter the password:")
+a = [1,2,4]
+a+="ab"
+print(a)
